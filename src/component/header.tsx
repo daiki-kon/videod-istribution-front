@@ -4,8 +4,12 @@ import { Image, Button, Icon, Input } from 'semantic-ui-react'
 import headerImage from '../assets/header.png'
 import '../styles/component/header.css'
 
-export const Header: FC = (
+type headerProps = {
+  className: string;
+}
 
+export const Header: FC<headerProps> = (
+  props: headerProps
 ) => {
 
   return(

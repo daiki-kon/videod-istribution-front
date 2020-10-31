@@ -1,0 +1,11 @@
+.detail-info{
+  margin: 4vh 0vw;
+  display: flex;
+  vertical-align: middle;
+  width: 85vw;
+}
+
+.user-label{
+  padding: 0.5vh;
+  vertical-align: middle;
+}

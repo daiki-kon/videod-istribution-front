@@ -1,0 +1,16 @@
+.video-player{
+  height: 70vh;
+  margin: 0vh 0vw 0vh 2vw;
+  padding: 0vw;
+}
+
+.video-info{
+  padding: 3vh 0vw 0vh 3vw;
+  height: auto;
+  width: 82vw;
+}
+
+.video-page{
+  width: 82vw;
+}
+

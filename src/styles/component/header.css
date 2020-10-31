@@ -1,9 +1,3 @@
-.header{
-  display: flex;
-  align-items: flex-start;
-  background-color: #eeeeee;
-}
-
 .search{
   margin: auto 0 ;
   width: 30%;
@@ -11,5 +5,5 @@
 
 .auth{
   margin: 0 0 0 auto;
-  padding: 1vh ;
+  padding: 2vh ;
 }
