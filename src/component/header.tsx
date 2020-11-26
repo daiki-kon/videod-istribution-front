@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import 'semantic-ui-css/semantic.min.css';
-import { Image, Button, Icon, Input } from 'semantic-ui-react';
+import { Image, Button, Input } from 'semantic-ui-react';
 import headerImage from '../assets/header.png';
 import styled from 'styled-components';
 
@@ -17,7 +17,7 @@ export const Header: FC<headerProps> = (
       <Search action={{ icon: 'search' }} placeholder='Search...' />
       <AuthButtonGroup>
         <Button color='orange'>SIGN IN</Button>
-        <Button className='sign-up' basic>SIGN UP</Button>
+        <Button basic>SIGN UP</Button>
       </AuthButtonGroup>
     </Wrapper>
   )
