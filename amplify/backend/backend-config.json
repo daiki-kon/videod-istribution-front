@@ -1,0 +1,11 @@
+{
+  "auth": {
+    "videodistribution1af34199": {
+      "service": "Cognito",
+      "serviceType": "imported",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
